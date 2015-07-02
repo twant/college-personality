@@ -7,14 +7,14 @@ end
 
 def college_picker(choice_array)
   colleges = {
-  :duke => ["party","perfectionist","suburb", "technology", "baboon","tv","mcdonald","socialite"],
-    :carleton => ["camping","nerdy","harry potter","giraffe","farm","technology","maoz","punk"],
-  :unc => ["party","socialite", "impala","coldstone","nerdy","suburb","music","stars"],
-  :upenn => ["perfectionist","city","technology","impala","enders","coldstone","socialite"],
-  :ucla => ["party","slackers","beach","sports","butterfly","tv","maoz","hipster"],
-  :stanford => ["camping","nerdy","suburb","technology","impala","stars","panda","punk"],
-  :yale => ["read","nerdy","suburb","music","butterfly","harry potter","panda","wallflower"],
-  :columbia => ["movies","perfectionist","city","art","butterfly","stars","mcdonalds","hipster"],
+  :Duke => ["party","perfectionist","suburb", "technology", "baboon","tv","mcdonald","socialite"],
+  :Carleton => ["camping","nerdy","harry potter","giraffe","farm","technology","maoz","punk"],
+  :UNC => ["party","socialite", "impala","coldstone","nerdy","suburb","music","stars"],
+  :UPenn => ["perfectionist","city","technology","impala","enders","coldstone","socialite"],
+  :UCLA => ["party","slackers","beach","sports","butterfly","tv","maoz","hipster"],
+  :Stanford => ["camping","nerdy","suburb","technology","impala","stars","panda","punk"],
+  :Yale => ["read","nerdy","suburb","music","butterfly","harry potter","panda","wallflower"],
+  :Columbia => ["movies","perfectionist","city","art","butterfly","stars","mcdonalds","hipster"],
   :uchicago =>["read","nerdy","city","technology","baboon","enders","mcdonalds","wallflower"]
 #   :caltech
 #   :dartmouth
@@ -47,9 +47,9 @@ def college_picker(choice_array)
     end
     #if no colleges match, returns random college. else returns random matched college
     if your_colleges.empty?
-      return colleges.keys.sample.to_s.upcase
+      return colleges.keys.sample.to_s
     else
-      return your_colleges.sample.to_s.upcase
+      return your_colleges.sample.to_s
     end
   end
 end
