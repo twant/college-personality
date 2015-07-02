@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic);
+/*///////////Header///////////*/
+#header h1{
+  font-family: 'Roboto', sans-serif;
+  font-size : 3em;
+  font-weight:200;
+  max-height:6em;
+  max-width:1080px;
+}
+#header a{
+  font-family: 'Roboto', sans-serif;
+  font-size : 1em;
+  font-weight:200;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  }
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background: #ddd;
+  padding: 20px 45px 20px;
+  border-style: solid #555;
+  border: 0px 10px 0px 10px;
+  height:100%;
+  float:center;
+  max-height: 1080px;
+  max-width:1080px;
+}
+
+.header_wrapper{
+  
+}
+#secret:hover{
+  text-decoration: none;
+  color:#000;
+}
+#header img{
+  width: 10%;
+  height: 10%;
+  float: left;
+  margin: 10px;
+}
+
+#header{
+  display:inline;
+  max-height:100px;
+  max-width:100%;
+  float: center;
+}
+
+nav{
+  white-space:pre;
+  padding:0 10%;
+  max-height:100px;
+  max-width:100%;
+}
+
+/*///////////About/Index/General//////////*/
+#mswant{
+  float:left;
+  width: 100%;
+  height:100%;
+  position: relative;
+}
+.question_wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background: #ddd;
+  padding: 20px 45px 20px;
+  border-style: solid #222;
+  border: 0px 10px 0px 10px;
+  height:100%;
+  float:center;
+  max-height: 1080px;
+  max-width:1080px;
+}
+
+.button_wrapper{
+  width: 10%;
+  height: 2%;
+  background: #F30;
+  padding: 1%;
+  border-style: solid #222;
+  border: 0px 10px 0px 10px;
+  height:100%;
+  float: center;
+  max-height: 1080px;
+  max-width:1080px;
+}
+
+#indent{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.9em;
+  line-height:1.6em;
+  text-indent: 25px;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:2em;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1.5em
+}
+
+a{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  text-decoration: none;
+  color: #777
+}
+
+a:hover{
+  font-family: "Roboto";
+  font-weight:400;
+  font-size:1em;
+  text-decoration: none;
+  color: rgb(199, 127, 113);
+}
+
+footer{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.7em;
+  text-decoration: none;
+  text-align: right;
+  color: #777;
+  clear: both;
+}
+
+
+

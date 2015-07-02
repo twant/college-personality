@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Which College Fits Your Personality?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper"> <!--wrapper1-->
+        <div id="header">
+          <h1> Which College Fits Your Personality?</h1> 
+          <h2> Answer all of the questions below to discover the college of your dreams! </h2>
+        </div> 
+      </div> <!--wrapper1-->
+    </header>     
+    <div class="wrapper"> <!--wrapper2-->
+      <body>
+      <form method="POST" action="/questionnaire">
+      <div class="question_wrapper">  1. What would you most likely do on a Friday night? <br>
+          <input type=radio name="array" value="read"> read <br>
+          <input type=radio name="array" value="party"> party <br>
+          <input type=radio name="array"value="camping"> camp <br>
+          <input type=radio name="array" value="movies"> watch a movie <br>
+      </div>
+      <div class="question_wrapper">  2. Which best describes the type of student you are? <br>
+          <input type=radio name="student" value="slackers"> slacker <br>
+          <input type=radio name="student" value="nerdy"> nerdy <br>
+          <input type=radio name="student" value="clown"> class clown <br>
+          <input type=radio name="student" value="perfectionist"> perfectionist <br>
+      </div>
+      <div class="question_wrapper"> 3. Where would you like to live in 10 years? <br>
+        <input type=radio name="live" value="city"> city <br>
+        <input type=radio name="live" value="suburb"> suburb <br>
+        <input type=radio name="live" value="beach"> farm <br>
+        <input type=radio name="live" value="farm"> beach <br>
+      </div>
+      <div class="question_wrapper"> 4. Which elective do you most look forward to? <br>
+        <input type=radio name="elective" value="sports"> PE <br>
+        <input type=radio name="elective" value="art"> Art <br>
+        <input type=radio name="elective" value="music"> Music <br>
+        <input type=radio name="elective" value="technology"> Technology <br>
+      </div>
+      <div class="question_wrapper"> 5. Which of these is your spirit animal? <br>
+        <input type=radio name="animal" value="impala"> impala <br>
+        <input type=radio name="animal" value="butterfly"> butterfly <br>
+        <input type=radio name="animal" value="giraffe"> giraffe <br>
+        <input type=radio name="animal" value="baboon"> baboon <br>
+      </div>
+      <div class="question_wrapper"> 6. Which book would you pick up on a rainy day? <br>
+        <input type=radio name="book" value="harry potter"> Harry Potter <br>
+        <input type=radio name="book" value="enders"> Ender's Game <br>
+        <input type=radio name="book" value="stars"> The Fault in Our Stars <br>
+        <input type=radio name="book" value="tv"> I would watch TV! <br>
+      </div>
+      <div class="question_wrapper"> 7. Where would you go if you could have lunch off campus? <br>
+        <input type=radio name="lunch" value="mcdonalds"> McDonald's <br>
+        <input type=radio name="lunch" value="panda"> Panda Express <br>
+        <input type=radio name="lunch" value="maoz"> Maoz <br>
+        <input type=radio name="lunch" value="coldstone"> Coldstone Creamery <br>
+      </div>
+      <div class="question_wrapper"> 8. How would your friends best describe you? <br>
+        <input type=radio name="describe" value="wallflower"> wall flower <br>
+        <input type=radio name="describe" value="socialite"> socialite <br>
+        <input type=radio name="describe" value="punk"> punk/rebel <br>
+        <input type=radio name="describe" value="hipster"> hipster <br>
+      </div>
+      <div align="center">
+        <input type="submit" name="submit" value="Get Results!" class="button_wrapper">
+      </div>
+        <br>
+      </form>
+       
+  </body>
+</html>
