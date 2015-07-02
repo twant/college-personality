@@ -8,7 +8,7 @@ end
 def college_picker(choice_array)
   colleges = {
   :duke => ["party","perfectionist","suburb", "technology", "baboon","tv","mcdonald","socialite"],
-  :carlton => ["camping","nerdy","harry potter","giraffe","farm","technology","maoz","punk"],
+    :carleton => ["camping","nerdy","harry potter","giraffe","farm","technology","maoz","punk"],
   :unc => ["party","socialite", "impala","coldstone","nerdy","suburb","music","stars"],
   :upenn => ["perfectionist","city","technology","impala","enders","coldstone","socialite"],
   :ucla => ["party","slackers","beach","sports","butterfly","tv","maoz","hipster"],
@@ -47,9 +47,9 @@ def college_picker(choice_array)
     end
     #if no colleges match, returns random college. else returns random matched college
     if your_colleges.empty?
-      return colleges.keys.sample
+      return colleges.keys.sample.to_s.upcase
     else
-      return your_colleges.sample
+      return your_colleges.sample.to_s.upcase
     end
   end
 end
