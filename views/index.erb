@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" type="text/css" href="<%= url("/stylesheet.css")%>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
   </head>
   <body>
     <header>
@@ -18,11 +19,11 @@
     </header>     
     <div class="wrapper"> <!--wrapper2-->
       <body>
-      <form method="POST" action="/questionnaire">
+        <form method="POST" action="/questionnaire">
       <div class="question_wrapper">  1. What would you most likely do on a Friday night? <br>
-          <div class="input_image"> <input type=radio name="array" value="read"> read
-            <img src="read.jpg"> </div>
-          <input type=radio name="array" value="party" src="images/party.jpg"> party <br>
+          <input type=radio name="array" value="read"> read 
+          <br>
+          <input type=radio name="array" value="party" > party <br>
           <input type=radio name="array"value="camping" src="images/camp.jpg"> camp <br>
           <input type=radio name="array" value="movies" src="images/movie.jpg"> watch a movie <br>
       </div>

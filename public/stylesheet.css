@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic);
 /*///////////Header///////////*/
-#header h1{
+h1{
   font-family: 'Roboto', sans-serif;
   font-size : 3em;
   font-weight:200;
   max-height:6em;
   max-width:1080px;
+  color: red;
 }
 #header a{
   font-family: 'Roboto', sans-serif;
@@ -20,17 +21,14 @@
   margin: 0 auto;
   background: #ddd;
   padding: 20px 45px 20px;
-  border-style: solid #555;
-  border: 0px 10px 0px 10px;
+  border-style: solid black;
+  border: 2%;
   height:100%;
   float:center;
   max-height: 1080px;
   max-width:1080px;
 }
 
-.header_wrapper{
-  
-}
 #secret:hover{
   text-decoration: none;
   color:#000;
@@ -69,7 +67,7 @@ nav{
   background: #ddd;
   padding: 20px 45px 20px;
   border-style: solid #222;
-  border: 0px 10px 0px 10px;
+  border: 1%;
   height:100%;
   float:center;
   max-height: 1080px;
@@ -118,13 +116,6 @@ a{
   color: #777
 }
 
-a:hover{
-  font-family: "Roboto";
-  font-weight:400;
-  font-size:1em;
-  text-decoration: none;
-  color: rgb(199, 127, 113);
-}
 
 footer{
   font-family: "Roboto";
@@ -135,6 +126,9 @@ footer{
   color: #777;
   clear: both;
 }
-
+body {
+    background-image: url("images/college.jpeg");
+    background-color: #cccccc;
+}
 
 
