@@ -15,7 +15,7 @@ def college_picker(choice_array)
   :Stanford => ["camping","nerdy","suburb","technology","impala","stars","panda","punk"],
   :Yale => ["read","nerdy","suburb","music","butterfly","harry potter","panda","wallflower"],
   :Columbia => ["movies","perfectionist","city","art","butterfly","stars","mcdonalds","hipster"],
-  :uchicago =>["read","nerdy","city","technology","baboon","enders","mcdonalds","wallflower"]
+  :UChicago =>["read","nerdy","city","technology","baboon","enders","mcdonalds","wallflower"]
 #   :caltech
 #   :dartmouth
 #   :mit
